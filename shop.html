@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Guide</title>
+	<link rel="icon" href="logo.png" type="image/icon type">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="travelguide.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+  
+	<style type="text/css"></style>
+	<script type="text/javascript" src="travelguide.js"></script>
+	<script src="lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top">
+      <a href="#" class="menu_icon"><i class="material-icons">menu</i></a>
+    </div>
+      <div class="logo2">
+  <a href="travelguide.html" title="Home"><img src="logo2.png" width="200" height="50"></a>
+</div>
+  </header>
+  <div class="top-container">
+  <img src="logo1.png" width="200" height="200">
+</div>
+ <div class="heading">
+		<h1>Shop</h1>
+	</div>
+<div style="position: absolute;
+            top: 350px;
+            left: 600px;" class="gallerytext">
+	<p> Travel Guide books </p>
+	</div>
+	<a href="book1.jpg">
+	<img style="position: absolute;
+	            top: 500px;
+	            left:120px;" src="book1.jpg" width="300" height="400">
+	        </a>
+	   <p style="position: absolute;
+	             top: 900px;
+	             left: 170px;
+	             font-family: Bradley Hand ITC;
+	             font-size: 30px;
+	             font-weight: bold;">Available on:</p>
+	<div  class="amazon1">
+		<a href="https://www.amazon.com/Destinations-Lifetime-Worlds-Amazing-Places/dp/1426215649/ref=sr_1_1?keywords=travel+guide&qid=1576761861&s=books&sr=1-1" title="Amazon.com">
+			<img src="amazon.jpg" width="60" height="60">
+		</a>
+		</div>
+	<div class="ebay1">
+		<a href="https://www.ebay.com/itm/Destinations-of-a-Lifetime-225-of-the-Worlds-Most-Amazing-Places-by-National-G/131681897106?epid=216711530&hash=item1ea8da4a92:g:M-gAAOSwYS5d-U4h" title="Ebay.com">
+			<img src="ebay.jpg" width="60" height="60">
+		</a>
+	</div>
+	<a href="book2.jpg">
+	<img style="position: absolute;
+	            top: 500px;
+	            left:620px;" src="book2.jpg" width="300" height="400">
+	        </a>
+	   <p style="position: absolute;
+	             top: 900px;
+	             left: 670px;
+	             font-family: Bradley Hand ITC;
+	             font-size: 30px;
+	             font-weight: bold;">Available on:</p>
+	<div class="amazon2">
+		<a href="https://www.amazon.com/Lets-Go-Europe-2018-Student/dp/1612370527" title="Amazon.com">
+			<img src="amazon.jpg" width="60" height="60">
+		</a>
+		</div>
+	<div class="ebay2">
+		<a href="https://www.ebay.com/p/240972666" title="Ebay.com">
+			<img src="ebay.jpg" width="60" height="60">
+		</a>
+	</div>
+
+
+<footer style="position: absolute;
+                 top: 1200px;
+                 left: 550px;">&copy; Copyright 2020, Elmedin Skopljak, Melisa Kunovac</footer>
+
+
+<nav class="menu">
+    <a class="active" href="travelguide.html"><b>HOME</b></a>
+    <a href="gallery.html"><b>GALLERY</b></a>
+        <a href="shop.html"><b>SHOP</b></a>
+        <a href="help.html"><b>HELP</b></a>
+        <a href="travelagencies.html"><b>TRAVEL AGENCIES</b></a>
+        <button class="dropdown-btn">RECOMMENDED...
+        <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-container">
+      <a href="culturaltrip.html">Cultural Trip</a>
+      <a href="friendstrip.html">Friends Trip</a>
+      <a href="familytrip.html">Family Trip</a>
+      <a href="snowfun.html">Snow Fun</a>
+      <a href="bestforkidstrip.html">Best for kids Trip</a>
+      <a href="honeymoontrip.html">Honeymoon Trip</a>
+  </div>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script type="text/javascript" src="travelguide.js"></script>
+    <div class="selectcountry">
+  <button onclick="selectCountry()" class="selectcountrybtn">Select continent
+    <i class="fa fa-caret-down"></i></button>
+  <div id="mySelectCountry" class="selectcountry-content">
+    <a href="africa.html">Africa</a>
+    <a href="asia.html">Asia</a>
+    <a href="australia.html">Australia</a>
+    <a href="europe.html">Europe</a>
+    <a href="northamerica.html">North America</a>
+    <a href="southamerica.html">South America</a>
+  </div>
+  <div class="search">
+	<form class="search" action="action_page.php">
+    <input type="text" placeholder="Type your destination.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</body>

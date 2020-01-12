@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Guide</title>
+	<link rel="icon" href="logo.png" type="image/icon type">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="travelguide.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+  
+	<style type="text/css"></style>
+	<script type="text/javascript" src="travelguide.js"></script>
+	<script src="lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+  <header>
+   <div class="top">
+      <a href="#" class="menu_icon"><i class="material-icons">menu</i></a>
+    </div>
+      <div class="logo2">
+    <a href="travelguide.html" title="Home"><img src="logo2.png" width="200" height="50"></a>
+</div>
+  </header>
+  
+
+<div class="galleryheading">
+	<p>Milano Gallery<p>
+</div>
+
+  <div class="gallery">
+  	<a href="milanogallery/milano1.jpg" data-lightbox="milanogallery" data-title="The Cathedral of Milano"><img src="milanogallery/milano1_small.jpg"></a>
+    <a href="milanogallery/milano2.jpg" data-lightbox="milanogallery" data-title="Gallery of Vittorio Emanuele II"><img src="milanogallery/milano2_small.jpg"></a>
+    <a href="milanogallery/milano3.jpg" data-lightbox="milanogallery" data-title="Sforzesco Castle"><img src="milanogallery/milano3_small.jpg"></a>
+  </div>
+  	
+
+<footer style="position: absolute;
+                 top: 1500px;
+                 left: 550px;">&copy; Copyright 2020, Elmedin Skopljak, Melisa Kunovac</footer>
+<nav class="menu">
+    <a class="active" href="travelguide.html"><b>HOME</b></a>
+    <a href="gallery.html"><b>GALLERY</b></a>
+        <a href="shop.html"><b>SHOP</b></a>
+        <a href="help.html"><b>HELP</b></a>
+        <a href="travelagencies.html"><b>TRAVEL AGENCIES</b></a>
+        <button class="dropdown-btn">RECOMMENDED...
+        <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-container">
+      <a href="culturaltrip.html">Cultural Trip</a>
+      <a href="friendstrip.html">Friends Trip</a>
+      <a href="familytrip.html">Family Trip</a>
+      <a href="snowfun.html">Snow Fun</a>
+      <a href="bestforkidstrip.html">Best for kids Trip</a>
+      <a href="honeymoontrip.html">Honeymoon Trip</a>
+  </div>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script type="text/javascript" src="travelguide.js"></script>
+    <div class="selectcountry">
+  <button onclick="selectCountry()" class="selectcountrybtn">Select continent
+    <i class="fa fa-caret-down"></i></button>
+  <div id="mySelectCountry" class="selectcountry-content">
+    <a href="africa.html">Africa</a>
+    <a href="asia.html">Asia</a>
+    <a href="australia.html">Australia</a>
+    <a href="europe.html">Europe</a>
+    <a href="northamerica.html">North America</a>
+    <a href="southamerica.html">South America</a>
+  </div>
+  <div class="search">
+	<form class="search" action="action_page.php">
+    <input type="text" placeholder="Type your destination.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+
+</body>
+</html>
